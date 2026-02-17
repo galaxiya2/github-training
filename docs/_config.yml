@@ -1,0 +1,63 @@
+# GitHub Pages Configuration
+
+# Site settings
+title: GitHub Training
+description: A comprehensive guide to mastering GitHub workflows and best practices
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://galaxiya2.github.io" # the base hostname & protocol for your site
+repository: galaxiya2/github-training
+
+# Theme settings
+# Uncomment and modify based on your preferred theme
+# For Just the Docs theme (popular for documentation)
+# remote_theme: just-the-docs/just-the-docs
+# color_scheme: light
+
+# For GitHub Pages default theme (Cayman)
+theme: jekyll-theme-cayman
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Kramdown options
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    default_lang: plaintext
+
+# Collections
+collections:
+  tutorials:
+    output: true
+    permalink: /:collection/:name
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-relative-links
+
+# Navigation
+# Enable if using Just the Docs or similar theme
+# nav_enabled: true
+# search_enabled: true
+# heading_anchors: true
+
+# Footer
+# footer_content: "Copyright &copy; 2026 GitHub Training. Distributed under MIT License."
+
+# Google Analytics (optional)
+# google_analytics: UA-XXXXXXXX-X
