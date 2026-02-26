@@ -1,5 +1,6 @@
 [Awesome README](https://github.com/matiassingers/awesome-readme)
 [Awesome Contributing](https://github.com/mntnr/awesome-contributing)
+[Awesome Templates](https://github.com/devspace/awesome-github-templates)
 
 [About README](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes)
 
