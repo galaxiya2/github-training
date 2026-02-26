@@ -46,5 +46,10 @@ var sum = first + second;
 - [ ] Third task
 
 
-/details 
-Test
+<details>
+<summary>Having trouble? 🤷</summary><br/>
+
+[use Actions minutes](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions).
+
+</details>
+
